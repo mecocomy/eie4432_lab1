@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>21096444d_Drink Ordering Form</title>
+        <link rel="stylesheet" href="styles/order.css">
+    </head>
+
+    <body>
+        <header>
+            <h1>Drink Ordering System</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="currentePage">Home</a></li>
+                <li><a href="order.html" class="Order">Order</a></li>
+                <li><a href="#">Menu</a></li>
+            </ul>
+        </nav>
+        <main>
+            <form action="#" method="post">
+                <div class="name-input ">
+                    <label id="name" name="name">Name: </label>
+                    <input type="text">
+                </div>
+                <div class="drink-select">
+                    <label for="drink">Drink: </label>
+                        <select name="drink" id="drink">
+                            <option value="Bubble-milktea">Bubble-milktea</option>
+                            <option value="Iced-latte">Iced-latte</option>
+                            <option value="Pineapple Juice">Pineapple Juice</option>
+                        </select>
+                    </label>
+                </div>
+                <div class="size-select">
+                    <label for="size">Size: </label>
+                    <input type="radio" value="Small" id="small" name="size"> Small
+                    <label for="small"></label>
+                    <input type="radio" value="Medium" id="medium" name="size"> Medium
+                    <label for="medium"></label>
+                    <input type="radio" value="Large" id="large" name="size"> Large
+                    <label for="large"></label>
+                </div>
+                <div class="submission">
+                    <input type="submit" value="Place Order">
+                </div>
+            </form>
+        </main>
+        <footer>
+            <h4>21096444d ZengMengyuan - EIE4432 Lab1 Project</h4>
+        </footer>
+    </body>
+</html>
